@@ -24,7 +24,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             });
         });
         
-        // Intersection Observer for animations
         const fadeElements = document.querySelectorAll('.fade-in');
         
         const observer = new IntersectionObserver((entries) => {
