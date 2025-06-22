@@ -51,7 +51,7 @@
 }
 
 .footer-widget-heading h3 {
-  color: #fff;
+  color: var(--blue);
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
