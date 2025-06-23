@@ -31,7 +31,13 @@
 }
 
 .footer-section {
+  align-items: center;
   position: relative;
+  background-color: var(--white);
+  background-image: url('ellipse-left.png'), url('ellipse-right.png');
+  background-repeat: no-repeat;
+  background-size: auto 100%; 
+  animation: floatEllipses 10s ease-in-out infinite;
 }
 
 .footer-content {
@@ -40,7 +46,7 @@
 }
 
 .footer-logo img {
-  max-width: 200px;
+  max-width: 100px;
 }
 
 .footer-text p {
@@ -81,7 +87,7 @@
 }
 
 .footer-widget ul li a {
-  color: #878787;
+  color:var(--black);
   text-transform: capitalize;
 }
 
@@ -121,7 +127,7 @@
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: var(--black);
 }
 
 .copyright-text p a {
@@ -145,6 +151,6 @@
 
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color: var(--black);
 }
 
